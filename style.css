@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+  }
+  
+  /* Apply styles to headings inside tables */
+  table th {
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+
+  
+  a {
+    color: #ff0000;
+  }
+  
+  ul {
+        padding-left: 20px;
+  }
+  
+  video {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  video:hover{
+    border: 2px solid #FF5733;
+  border-radius: 10px; 
+  }
+  /* Apply styles to the "My personal details" section */
+  p {
+    text-align: justify;
+  }
+  
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+  /* Apply styles to the <mark> element */
+  mark {
+    background-color: yellow;
+  }
+  
+  /* Apply styles to the <i> element */
+  i {
+    font-style: italic;
+  }
+  
+  /* Apply styles to the <strong> element */
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  ::selection {
+    color: wheat;
+    background: red;
+  }
+  
